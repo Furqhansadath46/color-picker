@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color picker</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="heading">
+                <h1>COLOR PICKER</h1>
+            </div>
+            <div class="colorbox">
+                <label for="color"  id="colorpicker" >Color <span class="coma1">:</span></label>
+                <input type="color" id="color"> <br>
+                <label for="text">Hex Code <span class="coma2">:</span></label>
+                <input type="text" id="hex" readonly>
+            </div>
+
+            <div class="fontsize">
+                <label for="range">Font-Size</label>
+                <input type="range" id="fontSizeRange">
+            </div>
+
+            <div class="notepad" contenteditable="true">
+                <textarea name="" id="content" cols="60" rows="7">Fontsize</textarea>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
